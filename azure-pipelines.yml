@@ -12,8 +12,8 @@ pool:
 steps:
 - task: Gradle@2
   inputs:
-    workingDirectory: 'MeetingManagerAndroid'
-    gradleWrapperFile: 'MeetingManagerAndroid/gradle/wrapper/gradle-wrapper.properties'
+    workingDirectory: 'Android/MeetingManagerAndroid/app'
+    gradleWrapperFile: 'Android/MeetingManagerAndroid/app/gradle-wrapper.properties'
     gradleOptions: '-Xmx3072m'
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
